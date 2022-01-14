@@ -1,4 +1,4 @@
-/home/valerii/Documents/Geant/sim/build/CMakeFiles/rebuild_cache.dir
-/home/valerii/Documents/Geant/sim/build/CMakeFiles/Simulation.dir
-/home/valerii/Documents/Geant/sim/build/CMakeFiles/edit_cache.dir
-/home/valerii/Documents/Geant/sim/build/CMakeFiles/sim.dir
+/home/valerii/Documents/Geant/myGeant4/sim/build/CMakeFiles/rebuild_cache.dir
+/home/valerii/Documents/Geant/myGeant4/sim/build/CMakeFiles/Simulation.dir
+/home/valerii/Documents/Geant/myGeant4/sim/build/CMakeFiles/edit_cache.dir
+/home/valerii/Documents/Geant/myGeant4/sim/build/CMakeFiles/sim.dir

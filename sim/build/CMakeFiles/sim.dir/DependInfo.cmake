@@ -4,11 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/valerii/Documents/Geant/sim/action.cc" "/home/valerii/Documents/Geant/sim/build/CMakeFiles/sim.dir/action.cc.o"
-  "/home/valerii/Documents/Geant/sim/construction.cc" "/home/valerii/Documents/Geant/sim/build/CMakeFiles/sim.dir/construction.cc.o"
-  "/home/valerii/Documents/Geant/sim/generator.cc" "/home/valerii/Documents/Geant/sim/build/CMakeFiles/sim.dir/generator.cc.o"
-  "/home/valerii/Documents/Geant/sim/physics.cc" "/home/valerii/Documents/Geant/sim/build/CMakeFiles/sim.dir/physics.cc.o"
-  "/home/valerii/Documents/Geant/sim/sim.cc" "/home/valerii/Documents/Geant/sim/build/CMakeFiles/sim.dir/sim.cc.o"
+  "/home/valerii/Documents/Geant/myGeant4/sim/action.cc" "/home/valerii/Documents/Geant/myGeant4/sim/build/CMakeFiles/sim.dir/action.cc.o"
+  "/home/valerii/Documents/Geant/myGeant4/sim/construction.cc" "/home/valerii/Documents/Geant/myGeant4/sim/build/CMakeFiles/sim.dir/construction.cc.o"
+  "/home/valerii/Documents/Geant/myGeant4/sim/detector.cc" "/home/valerii/Documents/Geant/myGeant4/sim/build/CMakeFiles/sim.dir/detector.cc.o"
+  "/home/valerii/Documents/Geant/myGeant4/sim/generator.cc" "/home/valerii/Documents/Geant/myGeant4/sim/build/CMakeFiles/sim.dir/generator.cc.o"
+  "/home/valerii/Documents/Geant/myGeant4/sim/physics.cc" "/home/valerii/Documents/Geant/myGeant4/sim/build/CMakeFiles/sim.dir/physics.cc.o"
+  "/home/valerii/Documents/Geant/myGeant4/sim/sim.cc" "/home/valerii/Documents/Geant/myGeant4/sim/build/CMakeFiles/sim.dir/sim.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

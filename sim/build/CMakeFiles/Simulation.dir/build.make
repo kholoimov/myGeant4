@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/valerii/Documents/Geant/sim
+CMAKE_SOURCE_DIR = /home/valerii/Documents/Geant/myGeant4/sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/valerii/Documents/Geant/sim/build
+CMAKE_BINARY_DIR = /home/valerii/Documents/Geant/myGeant4/sim/build
 
 # Utility rule file for Simulation.
 
@@ -90,6 +90,6 @@ CMakeFiles/Simulation.dir/clean:
 .PHONY : CMakeFiles/Simulation.dir/clean
 
 CMakeFiles/Simulation.dir/depend:
-	cd /home/valerii/Documents/Geant/sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/valerii/Documents/Geant/sim /home/valerii/Documents/Geant/sim /home/valerii/Documents/Geant/sim/build /home/valerii/Documents/Geant/sim/build /home/valerii/Documents/Geant/sim/build/CMakeFiles/Simulation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/valerii/Documents/Geant/myGeant4/sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/valerii/Documents/Geant/myGeant4/sim /home/valerii/Documents/Geant/myGeant4/sim /home/valerii/Documents/Geant/myGeant4/sim/build /home/valerii/Documents/Geant/myGeant4/sim/build /home/valerii/Documents/Geant/myGeant4/sim/build/CMakeFiles/Simulation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Simulation.dir/depend
 
