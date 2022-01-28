@@ -40,17 +40,49 @@
 /vis/viewer/set/autoRefresh true
 /vis/viewer/refresh
 /vis/verbose warnings
+/particle/select proton
 /run/beamOn 1
 /vis/scene/notifyHandlers scene-0
-/vis/viewer/set/picking false
-/vis/viewer/refresh
-/vis/viewer/set/picking false
-/vis/viewer/refresh
-/vis/viewer/set/picking false
-/vis/viewer/refresh
-/particle/list
-/vis/viewer/set/picking false
-/vis/viewer/refresh
-/vis/viewer/set/picking true
-/vis/viewer/refresh
-/vis/set/touchable World 0 Tube 0
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/particle/select e+
+/run/beamOn 1
+/particle/select e-
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1

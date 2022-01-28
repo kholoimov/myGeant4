@@ -522,49 +522,160 @@ CMakeFiles/exampleED.dir/src/EDEventAction.cc.o
  /home/valerii/Documents/Geant/myGeant4/session3_start/src/EDEventAction.cc
 CMakeFiles/exampleED.dir/src/EDPrimaryGeneratorAction.cc.o
  ../include/EDPrimaryGeneratorAction.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Geometry/BasicVector3D.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Geometry/Normal3D.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Geometry/Plane3D.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Geometry/Point3D.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Geometry/Transform3D.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Geometry/Transform3D.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Geometry/Vector3D.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/DualRand.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/JamesRandom.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/MTwistEngine.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/MixMaxRng.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandBinomial.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandBinomial.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandBit.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandBit.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandBreitWigner.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandBreitWigner.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandChiSquare.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandChiSquare.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandExpZiggurat.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandExponential.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandExponential.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandFlat.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandFlat.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandGamma.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandGamma.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandGauss.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandGauss.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandGaussQ.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandGaussQ.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandGaussZiggurat.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandGeneral.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandGeneral.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandLandau.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandLandau.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandPoisson.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandPoisson.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandPoissonQ.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandPoissonQ.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandStudentT.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandStudentT.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/Random.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/Random.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandomEngine.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RandomEngine.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/Randomize.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RanecuEngine.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/Ranlux64Engine.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RanluxEngine.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RanluxppEngine.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Random/RanshiEngine.h
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Units/PhysicalConstants.h
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Units/SystemOfUnits.h
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Utility/defs.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Utility/memory.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Utility/thread_local.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Vector/AxisAngle.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Vector/AxisAngle.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Vector/LorentzVector.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Vector/LorentzVector.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Vector/Rotation.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Vector/Rotation.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Vector/RotationInterfaces.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Vector/RotationInterfaces.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Vector/RotationX.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Vector/RotationX.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Vector/RotationY.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Vector/RotationY.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Vector/RotationZ.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Vector/RotationZ.icc
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Vector/ThreeVector.h
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Vector/ThreeVector.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Vector/TwoVector.h
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/CLHEP/Vector/TwoVector.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4AffineTransform.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4AffineTransform.icc
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4Allocator.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4AllocatorPool.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4AutoLock.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4BoundingEnvelope.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4Box.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4Box.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4CSGSolid.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4DCofThisEvent.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4EnvironmentUtils.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4Event.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4Exception.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4ExceptionSeverity.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4GeomConfig.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4GeomSplitter.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4GeomTypes.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4GlobalConfig.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4HCofThisEvent.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4LogicalVolume.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4LogicalVolume.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4LogicalVolumeStore.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4Normal3D.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4PDefManager.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4ParticleDefinition.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4ParticleDefinition.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4ParticleGun.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4ParticleMomentum.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4ParticleTable.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4ParticleTable.icc
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4ParticleTableIterator.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4Plane3D.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4Point3D.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4Polyhedron.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4PrimaryParticle.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4PrimaryVertex.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4Profiler.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4Profiler.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4Region.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4Region.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4RotationMatrix.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4String.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4String.icc
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4SystemOfUnits.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4Threading.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4ThreeVector.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4TrajectoryContainer.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4Transform3D.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4TwoVector.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4Types.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4UAdapter.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4UBox.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4VDigiCollection.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4VExceptionHandler.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4VGraphicsScene.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4VHitsCollection.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4VNotifier.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4VPhysicalVolume.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4VPhysicalVolume.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4VPrimaryGenerator.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4VSolid.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4VSolid.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4VStoreNotifier.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4VTrajectory.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4VUserEventInformation.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4VUserPrimaryGeneratorAction.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4VisExtent.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4Visible.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4Visible.icc
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4VoxelLimits.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4VoxelLimits.icc
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/G4ios.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/HepPolyhedron.h
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/PTL/Globals.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/PTL/Types.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/PTL/Utility.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/Randomize.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/evtdefs.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/geomdefs.hh
+ /home/valerii/Documents/Geant/GeantBuild/include/Geant4/geomwdefs.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/globals.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/pwdefs.hh
  /home/valerii/Documents/Geant/GeantBuild/include/Geant4/templates.hh

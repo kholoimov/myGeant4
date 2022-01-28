@@ -1,4 +1,4 @@
-# Macro file for the visualization setting in the initialization phase 
+# Macro file for the visualization setting in the initialization phase
 # of the ED example when running in interactive mode
 #
 
@@ -72,6 +72,9 @@
 # To get nice view
 #/vis/geometry/set/visibility World 0 false
 /vis/geometry/set/colour Tube 0 blue
+/vis/geometry/set/colour Chamber2 0 green
+/vis/geometry/set/colour EMCalorimeter 0 yellow
+/vis/geometrt/set/colour EMLayer 0 red
 #
 # Re-establish auto refreshing and verbosity:
 /vis/viewer/set/autoRefresh true

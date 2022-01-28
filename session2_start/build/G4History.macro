@@ -27,9 +27,7 @@
 /vis/scene/endOfEventAction accumulate
 /vis/geometry/set/colour Tube 0 blue
 /vis/scene/notifyHandlers
-/vis/viewer/set/autoRefresh true
-/vis/viewer/refresh
-/vis/verbose warnings
-/run/beamOn 1
-/vis/scene/notifyHandlers scene-0
-/run/beamOn 10
+/vis/geometry/set/colour Chamber2 0 green
+/vis/scene/notifyHandlers
+/vis/geometry/set/colour EMCalorimeter 0 yellow
+/vis/scene/notifyHandlers

@@ -32,7 +32,9 @@
 #define EDPrimaryGeneratorAction_h 1
 
 #include "G4VUserPrimaryGeneratorAction.hh"
+#include "globals.hh"
 
+class G4ParticleGun;
 class G4Event;
 
 /// The first primary generator action class.
@@ -40,15 +42,18 @@ class G4Event;
 class EDPrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction
 {
   public:
-    EDPrimaryGeneratorAction();    
-    virtual ~EDPrimaryGeneratorAction();
+    EDPrimaryGeneratorAction();
+    ~EDPrimaryGeneratorAction() override;
 
     // method from the base class
-    virtual void GeneratePrimaries(G4Event*);         
+    virtual void GeneratePrimaries(G4Event*) override;
+
+    void SetRandomFlag(G4bool );
+
+  private:
+    G4ParticleGun* fParticleGun = nullptr;
 };
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 #endif
-
-

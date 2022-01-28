@@ -37,52 +37,53 @@
 #include "G4PrimaryVertex.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4ios.hh"
+#include "G4LogicalVolumeStore.hh"
+#include "G4LogicalVolume.hh"
+#include "G4Box.hh"
+#include "Randomize.hh"
+#include "G4ParticleGun.hh"
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 EDPrimaryGeneratorAction::EDPrimaryGeneratorAction()
 : G4VUserPrimaryGeneratorAction()
-{}
+{
+  G4int nofParticles = 1;
+  fParticleGun = new G4ParticleGun(nofParticles);
+
+  // default particle kinematic
+
+  G4ParticleDefinition* particleDefinition
+    = G4ParticleTable::GetParticleTable()->FindParticle("proton");
+
+  fParticleGun->SetParticleDefinition(particleDefinition);
+  fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0.,0.,1.));
+  fParticleGun->SetParticleEnergy(3.0*GeV);
+  fParticleGun->SetParticlePosition(G4ThreeVector(0., 0., -10.*m));
+
+}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 EDPrimaryGeneratorAction::~EDPrimaryGeneratorAction()
-{}
+{
+  delete fParticleGun;
+}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 void EDPrimaryGeneratorAction::GeneratePrimaries(G4Event* event)
 {
-  //this function is called at the begining of ecah event
-  //
+    // randomized direction
+    G4double dtheta = 2.*deg;
+    G4double dphi = 360*deg;
+    G4double theta = G4UniformRand()*dtheta;
+    G4double phi = G4UniformRand()*dphi;
+    fParticleGun->SetParticleMomentumDirection(
+      G4ThreeVector(sin(theta)*sin(phi), sin(theta)*cos(phi), cos(theta)));
 
-  // Define particle properties
-  G4String particleName = "proton";
-  //G4String particleName = "geantino";
-  G4ThreeVector position(0, 0, -9.*m);   
-  G4ThreeVector momentum(0, 0, 1.*GeV);
-  G4double time = 0;
-  
-  // Get particle definition from G4ParticleTable
-  G4ParticleTable* particleTable = G4ParticleTable::GetParticleTable();
-  G4ParticleDefinition* particleDefinition 
-    = particleTable->FindParticle(particleName);
-  if ( ! particleDefinition ) {
-    G4cerr << "Error: " << particleName << " not found in G4ParticleTable" << G4endl;
-    exit(1);
-  }  
-    
-  // Create primary particle
-  G4PrimaryParticle* primaryParticle = new G4PrimaryParticle(particleDefinition);
-  primaryParticle->SetMomentum(momentum.x(), momentum.y(), momentum.z());
-  primaryParticle->SetMass(particleDefinition->GetPDGMass());
-  primaryParticle->SetCharge( particleDefinition->GetPDGCharge());
 
-  // Create vertex 
-  G4PrimaryVertex* vertex = new G4PrimaryVertex(position, time);
-  vertex->SetPrimary(primaryParticle);
-  event->AddPrimaryVertex(vertex);
+  fParticleGun->GeneratePrimaryVertex(event);
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-

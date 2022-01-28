@@ -1,0 +1,8 @@
+/home/valerii/Documents/Geant/myGeant4/solution/session5_solution/build/CMakeFiles/install/strip.dir
+/home/valerii/Documents/Geant/myGeant4/solution/session5_solution/build/CMakeFiles/install/local.dir
+/home/valerii/Documents/Geant/myGeant4/solution/session5_solution/build/CMakeFiles/edit_cache.dir
+/home/valerii/Documents/Geant/myGeant4/solution/session5_solution/build/CMakeFiles/ED.dir
+/home/valerii/Documents/Geant/myGeant4/solution/session5_solution/build/CMakeFiles/install.dir
+/home/valerii/Documents/Geant/myGeant4/solution/session5_solution/build/CMakeFiles/list_install_components.dir
+/home/valerii/Documents/Geant/myGeant4/solution/session5_solution/build/CMakeFiles/rebuild_cache.dir
+/home/valerii/Documents/Geant/myGeant4/solution/session5_solution/build/CMakeFiles/exampleED.dir
